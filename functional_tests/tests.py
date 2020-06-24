@@ -56,12 +56,12 @@ class NewVisitorTest(LiveServerTestCase):
         #there is still a tet box inviting her to add another item. She enters"use peacock feathers to make a fly'(Edith is very methodical)
         self.fail('finish the test!')
 
-    '''
+    
     def test_can_start_a_list_for_one_user(self):
         #Edith听说了这个tdd的app
         self.wait_for_row_in_list_table('1: Buy peacock feathers')
         self.wait_for_row_in_list_table('2: Use peacock feathers to make a fly')
-    '''
+    
 
     def test_mutiple_users_can_start_lists_at_different_urls(self):
         #Edith新建了一个to-do列表
